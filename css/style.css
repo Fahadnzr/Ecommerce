@@ -1,0 +1,818 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+}
+.blackBgHover:hover{
+	background-color: black;
+	color:white;
+	text-decoration-line: none;
+}
+
+.smokeHover:hover{
+	color:rgb(103,103,103);
+	text-decoration-line: none;
+}
+.dFlex {
+	display: flex;
+}
+.contentCenter{
+	justify-content: center;
+}
+.contentEnd{
+	justify-content: end;
+}
+.contentSpaceAround{
+	justify-content: space-around;
+}
+.contentSpaceBetween{
+	justify-content: space-between;
+}
+.contentSpaceEvenly{
+	justify-content: space-evenly;
+}
+.contentEnd{
+	justify-content: flex-end;
+}
+.pointer{
+	cursor: pointer;
+}
+.alignCenter{
+	align-items: center;
+}
+.underLine{
+	text-decoration-line: underline;
+}
+
+.blackBorder{
+	border: solid 1px black;
+}
+
+.smokeBorder{
+	border: solid 1px rgb(230, 230, 230);
+}
+
+.borderRight{
+    border-right-style: inset;
+}
+.topMarginHigh{
+	margin-top: 90px;
+}
+
+.topMarginMedium{
+	margin-top: 35px;
+}
+
+.topMargin{
+	margin-top:15px;
+}
+
+.bottomMargin{
+	margin-bottom:15px;
+}
+
+.leftMarginMedium{
+	margin-left: 35px;
+}
+
+.leftMarginHigh{
+	margin-left: 90px;
+}
+
+.rightMarginMedium{
+	margin-right: 35px;
+}
+.mediumPadding{
+	padding: 10px 30px 10px 30px;
+}
+.lineHeight{
+	line-height: 24px;
+}
+
+.lineHeightSmall{
+	line-height: 20px;
+}
+.spacingLetter{
+	letter-spacing: 1px;
+}
+
+.borderBottom{
+	border-bottom: 1px solid darkgrey;
+}
+
+.borderTopBottom{
+    	border-top-style: ridge;
+    	border-bottom-style: ridge;
+}
+.paddingTopBot{
+	padding: 15px 0px 15px 0px;
+}
+.headBlack {
+        padding: 5px 0px 5px 0px;
+	background-color: black;
+	justify-content: space-evenly;
+	height: 21px;
+	Font-weight: 800;
+	color: rgb(255, 255, 255);
+}
+
+.headBlack p {
+	margin-top: 2px;
+}
+
+.creditcard {
+	width: 20px;
+}
+
+.userBag {
+	width: 20px;
+	padding: 0px 20px 0px 4px;
+	margin-top: 18px;
+}
+
+.memberWeek {
+	align-items: center;
+}
+
+.alignItemCenter{
+	align-items: center;
+}
+
+.decorationNone{
+	text-decoration: none;
+}
+.head2 {
+	justify-content: flex-end;
+	margin: 9px 47px 0px 0px;
+	height: 16px;
+}
+
+.head2 p,a {
+	margin-right: 17px;
+	color: #4d4d4d;
+	font-weight: 100;
+}
+
+.AdidasIcon {
+	width: 62px;
+	margin-left: 40px;
+}
+
+.headermiddle {
+    align-items: center;
+    background-color: whitesmoke;
+    border-color: black;
+    display: flex;
+    border: solid 1px transparent;
+    margin: 25px 21px 11px 46px;
+}
+.headermiddle:hover {
+	border: solid 1px;
+}
+
+.Icons1 {
+	width: 26px;
+}
+
+.Icons2 {
+	width: 26px;
+}
+
+.head3{
+	border-bottom: 1px solid whitesmoke ;
+}
+.head3 p,
+b {
+	margin: 0px 28px 0px 28px;
+	display: flex;
+	margin-top: 22px;
+}
+.width1{
+	width:440px;
+}
+.width2{
+	width:690px;
+}
+.headermiddle input {
+	border: none;
+	width: 100%;
+	padding: 2px;
+	outline: none;
+	background-color: transparent;
+}
+
+.adBox1 {
+	position: relative;
+}
+
+.offer1 {
+	position: absolute;
+    	margin: 100px 0px 0px 60px;
+    	top: 50px;
+}
+
+.adBox2 {
+	position: relative;
+}
+
+.offer2 {
+	position: absolute;
+	margin: 100px 0px 0px 60px;
+}
+
+.offer2 p {
+	color: white;
+}
+
+.fifaWin {
+	width: 121px;
+	background-color: white;
+	color: black;
+	font-weight: 600;
+	padding: 12px 67px 14px 11px;
+	margin-top: 20px;
+}
+
+.fifaWin:hover {
+	color: grey;
+}
+
+.popularTxt {
+	font-weight: 600;
+	justify-content: center;
+}
+
+.popularCategories {
+	font-weight: 100;
+	justify-content: center;
+}
+
+.popularCategories2 {
+	width: 100px;
+	background-color: whitesmoke;
+	border: solid 1px rgb(217, 217, 217);
+	text-align: center;
+	padding: 11px 1px 3px 1px;
+	margin: 30px 10px 0px 9px;
+}
+
+.popularCategories2:hover {
+	border: solid 1px black;
+}
+
+.shopAd {
+	font-weight: 800;
+	margin: 70px 12px 0px 19px;
+	justify-content: space-between;
+}
+
+.viewArrival {
+	text-decoration-line: underline;
+}
+
+.viewArrival:hover {
+	background-color: black;
+	color: white;
+	text-decoration-line: none;
+}
+
+.categoryImage img {
+	padding: 17px;
+	cursor: pointer;
+}
+
+.categoryImage2 img {
+	cursor: pointer;
+	margin: 0px 17px 2px 17px;
+}
+
+.imgWidth{
+	width:300px;
+}
+.shoesImg {
+	width: 303px;
+	border: solid 1px transparent;
+}
+
+.shoesImg:hover {
+	border: solid 1px black;
+}
+
+.stories {
+	background-color: rgb(230, 230, 230);
+	justify-content: center;
+	color: rgb(33 33 33);
+	Line-height: 22px;
+}
+
+.stories h2 {
+	margin-left: 15px;
+}
+.storyMargin{
+	    margin: 70px 0px 70px 0px;
+}
+
+.storyBox1 {
+	width: 500px;
+	margin-left: 15px;
+	padding-top: 40px;
+}
+
+.joinAdidas {
+
+	padding: 34px 0px 33px 0px;
+}
+.freeWidth{
+	width: 244px;
+}
+.footerlists {
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.footerListing {
+	margin: 10px 39px 1px 34px;
+}
+
+.footerListing p {
+	padding: 9px 0px 2px 4px;
+}
+
+.footerListing p:hover {
+	text-decoration-line: underline;
+}
+
+.footerLast {
+	background-color: rgb(77, 77, 77);
+	color: rgb(217, 217, 217);
+}
+
+.footerLast1 {
+	justify-content: center;
+}
+
+.footerLast p {
+	padding: 11px 19px 0px 19px;
+}
+
+.footerLast p:hover {
+	text-decoration-line: underline;
+}
+
+.footerLast2 {
+	margin: 20px 0px 0px 89px;
+}
+/* wish list starts*/
+.wishList{
+	width:880px;
+	padding-bottom: 90px;
+}
+.headListItems{
+	margin:36px 1px 1px 10px;
+}
+.wishProduct{
+	width: 200px;
+}
+
+.productBox {
+    width: 200px;
+    border: solid 1px transparent;
+    position: relative;
+    margin: 1px 5px 1px 5px;
+}
+.productBox:hover {
+	border: solid 1px black;
+}
+.productDescription {
+    	padding: 5px 0px 10px 14px;
+    	font-family: system-ui;
+    	line-height: 20px;
+}
+.price {
+	padding: 0px 0px 0px 4px;
+    	margin-left: 18px;
+	position: absolute;
+	bottom: 81px;
+	width:auto;
+	
+}
+.price:hover{
+	bottom: 90px;
+}
+/* wish list end*/
+
+/* Your Bag starts*/
+.cartListItems{
+	margin: 15px 0px 0px 10px;
+}
+.bagBox{
+	width: 1160px;
+}
+
+.listTotal{
+	padding: 19px 0px 0px 0px
+}
+.bagItemBox{
+	border: solid 1px black;
+	width: 723px;
+	margin-top: 17px;
+}
+.cartProductImage{
+	width: 238px;
+}
+.oldPrice{
+	padding: 1px 0px 1px 36px;
+}
+.newPrice{
+	color:red;
+	padding: 0px 12px 0px 1px;
+}
+
+.bagProductDescription{
+	width:497px;
+	margin: 15px 8px 0px 35px;
+}
+.productCartTitle{
+	padding: 1px 74px 1px 1px;
+}
+.bagLove{
+	
+}
+.sizeSelectBag{
+	border: solid 1px black;
+    	width: 100px;
+	margin: 46px 1px 1px 1px;
+    	padding: 16px 0px 16px 1px;
+}
+/* Drop down arrow */
+.arrow {
+  	border: solid black;
+  	border-width: 0 3px 3px 0;
+  	display: inline-block;
+  	padding: 3px;
+}
+.down {
+  	transform: rotate(45deg);
+  	-webkit-transform: rotate(45deg);
+}
+/* Drop down arrow Ended */
+.blackBoxImage{
+	padding:1px 1px 1px 1px;
+	width: 627px;
+}
+.checkOutBox{
+	width: 363px;
+	border: solid 1px whitesmoke;
+    	margin: 25px 0px 1px 55px;
+}
+
+.checkoutOrder{
+	padding: 12px 0px 1px 11px;
+}
+.checkoutDetail{
+	padding: 14px 0px 0px 14px;
+} 	
+.checkoutPrice{
+	padding-left:100px;
+}
+.checkoutItem{
+	padding-right: 100px;
+}
+.checkoutDelivery{
+	padding: 14px 100px 0px 21px;
+} 	
+.checkoutFree{
+	padding: 14px 0px 0px 100px;
+} 	
+
+.checkoutOffAplied{
+	padding: 14px 64px 0px 14px;
+} 	
+
+.checkoutOff{
+	padding: 14px 0px 0px 55px;
+} 	
+
+.checkoutTotal{
+	padding: 14px 100px 0px 20px;
+} 	
+.checkoutFinalPrice{
+	padding: 14px 0px 0px 100px;
+} 	
+.checkoutTax{
+    	padding: 6px 0px 0px 35px;
+}
+
+.topPicksTxt{
+	padding: 40px 0px 0px 100px;
+}
+
+.promoBox{
+    	width: 356px;
+    	border: solid 1px black;
+    	padding: 11px 0px 11px 9px;
+    	margin: 13px 97px 1px 0px;
+	align-items: center;
+}
+
+.promoAddIcon{
+	width:20px;
+	padding-right: 14px;
+}
+
+.topPicksBox{
+ 	width: 174px;
+    	border: solid 1px transparent;
+    	position: relative;
+    	margin: 1px 5px 1px 5px;
+}
+.topPicksBox:hover {
+	border: solid 1px black;
+}
+.pickProduct{
+	width: 174px;
+}
+.topPicks{
+	margin: 22px 0px 90px 95px;
+}
+.cartBottomBox{
+	margin-bottom:99px;
+}
+.cartPageBottom{
+	margin: 5px 0px 25px 99px;
+   	width: fit-content;
+} 
+.cartPageBottom:hover{
+	background-color: black;
+	color: white;
+}
+
+.listingProductBox {
+	width: 301px;
+    	border: solid 1px transparent;
+    	position: relative;
+    	margin: 1px 5px 1px 5px;
+}
+.listingProductBox:hover {
+	border: solid 1px black;
+}
+
+.listPagePrice {
+    	margin-left: 7px;
+    	position: absolute;
+    	bottom: 60px;
+    	width: auto;
+}
+.listPagePrice:hover{
+	bottom: 70px;
+}
+.listingCategory{
+	border-bottom: solid 1px whitesmoke;
+	margin-bottom: 18px;
+}
+.listingCategory p {
+	padding: 20px 5px 10px 9px;
+}
+.rightArrow{
+	width:32px;
+	border: solid 1px black;
+	padding: 8px 0px 0px 11px;
+    	margin: 7px 0px 3px 0px;
+}
+.rightArrowImage{
+	width:20px;	
+}
+
+.filterBox{
+    	width: 137px;
+   	border: solid 1px black;
+    	padding: 3px 1px 1px 14px;
+    	margin: 7px 0px 3px 60px;	
+}
+.filterImage{
+	width:30px;
+}
+.filterImgBox{
+	padding: 3px 1px 1px 1px;
+}
+.sneakerImage{
+	width: 40px;
+}
+
+.sneakerImageBox{
+	margin: 4px 0px 0px 5px;
+}
+
+.backIcon{
+	width: 17px;
+}
+
+.pageCategories{
+	margin: 45px 0px 16px 7px;
+}
+
+.sneakerTxtCategory{
+	padding-left:7px;
+}
+
+.menSneakerTitle{
+	padding: 12px 0px 8px 13px;
+}
+
+.bottomNavigation{
+	margin: 61px 0px 61px 0px;
+}
+.pageMoverBottom{
+	align-items:center;
+	margin-left: 99px;
+}
+
+.pageMoverBox {
+    	border: solid 1px rgb(153,157,155);
+    	width: 60px;
+    	margin: 0px 6px 0px 9px;
+    	padding: 16px 0px 16px 0px;
+}
+.pageMoverSpace{
+	width:40px;
+}
+
+.jsEndFlex1{
+	flex: 1;
+    	justify-content: flex-end;
+}
+.bottomBoxNext{
+    	margin: 19px 59px 1px 1px;
+}
+.nextPadding{
+	padding-top:9px;
+}
+.titleBottomSneaker{
+	margin: 1px 0px 5px 80px;
+}
+.sneakerExplanation{
+	width:974px;
+	margin: 1px 0px 5px 80px;
+	line-height: 24px;
+}
+.sneakerExplanationTitles{
+	width:974px;
+	margin: 1px 0px 5px 80px;
+	line-height: 40px;
+}
+
+.bottomParagraph{
+	margin:0px 0px 90px 37px;
+}
+.bottomClothing{
+	margin: 0px 0px 19px 90px;
+}
+.clothingCategory{
+	line-height: 30px;
+}
+.bottomClothingBox{
+	margin-bottom:80px;
+}
+
+/*Login page*/
+.loginBox{
+	width:1064px;
+}
+.inputBox input{
+	border: none;
+	width: 100%;
+	padding: 2px;
+	outline: none;
+	background-color: transparent;
+}
+.inputBox:hover {
+	border: solid 1px;
+}
+.inputBox {
+	margin-top:17px;
+	padding:15px;
+	align-items: center;
+	border: solid 1px black;
+}
+.loginInputBox{
+	width: 722px;
+    	padding: 37px 26px 37px 37px;
+}
+
+.smallIcon{
+	width:15px;
+}
+.tickPadding{
+	padding:5px;
+}
+.joinClub{
+	width:55px;
+}
+
+
+
+.facebookBox{
+	width:200px;
+}
+
+.right {
+  	transform: rotate(-45deg);
+  	-webkit-transform: rotate(-45deg);
+}
+
+
+.supportTopicBox{
+	width: 285px;
+}
+.helpBox {
+    	width: 800px;
+    	padding: 63px 0px 37px 43px;
+        letter-spacing: 1px;
+}
+
+.supportTopics{
+        width: 915px;
+}
+
+.topicQuestion{
+    	width: 629px;
+        margin-left: 30px;
+	padding-left: 30px;
+}
+
+.supportTitle {
+    	width: 466px;
+    	display: flex;
+    	justify-content: end;
+}
+
+.helpBottom{
+    	width: 1112px;
+}
+
+.helpBottomSesion{
+    	width: 1000px;
+}
+
+.descriptionBox {
+    	border-left-style: solid;
+   	margin: 70px 30px 40px 42px;
+    	padding: 35px 0px 35px 32px;
+    	border-top: ridge;
+}
+
+.up {
+  	transform: rotate(-135deg);
+  	-webkit-transform: rotate(-135deg);
+}
+
+.detailBox{
+   	margin: 50px 30px 40px 42px;
+    	padding: 35px 0px 35px 32px;
+}
+
+/*Side bar*/
+.sideBar{
+    	position: sticky;
+    	height: 790px;
+    	top: 0;
+    	z-index: 1;
+	padding: 20px;
+}
+
+.alternativeBox{
+    	padding: 12px;
+	align-items: center;
+	width: 346px;
+}
+
+.checkoutHeader{
+	width:1155px;
+}
+
+.inputWidth{
+    width: 545px;
+}
+
+.addressBoxMargin{
+    margin-right: 28px;
+}
+
+.addresBox1width{
+	width: 577px;
+}
+
+.addresBox2width{
+	width: 577px;
+}
+
+.addressBox{
+	width:300px;
+}
+
+.boxWidth{
+	width:300px;
+}

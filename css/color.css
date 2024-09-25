@@ -1,0 +1,34 @@
+.darker{
+	color:rgb(0,0,0); /*black */
+}
+
+.semiDark{
+	color:rgb(103,103,103);  /*semi grey */
+}
+.dark{
+    	color: rgb(46 44 44);/*Thick grey*/
+}
+.darkColorBg{
+	background-color:rgb(54,55,56);  /*dark grey */
+}
+
+.lightColor{
+	color:rgb(153,157,155); /*light grey */
+}
+.lightColorBg{
+	background-color:rgb(153,157,155); /*light grey bg*/
+}
+.popColorBg{
+	background-color:rgb(237,231,52); /*yellow */
+}
+
+.dangerColor{
+	color:rgb(255, 0, 0);
+}
+.smokeWhiteBg{
+	background-color:whitesmoke;
+}
+
+.whiteBg{
+	background-color:white;
+}

@@ -1,0 +1,47 @@
+.xxSmall{
+	font-size:11px;
+}
+.xSmall{
+	font-size:12px;
+}
+.smaller{
+	font-size:13px;
+}
+.small{
+	font-size:14px;
+}
+.semiMedium{
+	font-size:15px;
+}
+.medium{
+	font-size:16px;
+}
+
+.large{
+	font-size:18px;
+}
+.xLarge{
+	font-size:24px;
+}
+.xxLarge{
+	font-size:30px;
+}
+.huge{
+	font-size:40px;
+}
+.font2 {
+	font-family: AdihausDIN-CnBoldItalic;
+	letter-spacing: .025em;
+}
+.font3{
+	font-family:AdihausDIN;
+}
+.font4{
+    	font-family: system-ui;
+}
+.fontLighter{
+	font-weight: lighter;
+}
+.fontLW{
+	font-weight: lighter;
+}
